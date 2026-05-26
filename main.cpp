@@ -14,7 +14,7 @@ enum GameState
 
 GameState gameState = Intro;
 
-int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
+int main()
 {
     sf::Clock clock;
     sf::RenderWindow window(sf::VideoMode(640, 480), "Bomber", sf::Style::Fullscreen);
